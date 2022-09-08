@@ -1,0 +1,108 @@
+.firstdiv {
+    background-color: #0067b8;
+    color: white;
+    text-align: center;
+    padding-right: 1.3125em;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.laps {
+    width: 100%;
+}
+
+section.authentic {
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.lappara {
+    padding-top: 3rem;
+    padding-left: 4rem;
+}
+
+button {
+    background-color: #0067b8;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-color: #0067b8;
+    border-radius: 2px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.ulsection {
+    list-style-type: none;
+}
+
+.ulsection li {
+    list-style-type: none;
+    display: inline;
+}
+
+section.section5 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+section.section5 img {
+    max-width: 90%;
+}
+
+section.section5 p h2 {
+    max-width: 85%;
+}
+
+section.section5 h2 {
+    font-size: 20px;
+}
+
+section.section7 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+section.section7 img {
+    max-width: 90%;
+}
+
+section.section7 p h2 {
+    max-width: 85%;
+}
+
+section.section7 h2 {
+    font-size: 20px;
+}
+
+section.section6 img {
+    width: 100%;
+}
+
+section.section6 {
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin-bottom: 3rem;
+}
+
+section.section6 div {
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+section.section8 img {
+    width: 100%;
+}
