@@ -1,4 +1,4 @@
-.firstdiv {
+/* .firstdiv {
     background-color: #0067b8;
     color: white;
     text-align: center;
@@ -20,6 +20,7 @@ section.authentic {
     background-color: #f2f2f2;
     display: grid;
     grid-template-columns: repeat(2, 50%);
+    padding-bottom: 3rem;
 }
 
 .lappara {
@@ -44,17 +45,31 @@ a {
 
 .ulsection {
     list-style-type: none;
+    padding-bottom: 3rem;
 }
 
 .ulsection li {
     list-style-type: none;
     display: inline;
+    align-items: center;
+}
+
+.ulsection li {
+    margin: 0;
+    padding: 0;
+}
+
+.ulsection li img {
+    padding-bottom: 2rem;
+    align-items: center;
 }
 
 section.section5 {
+    margin-top: 5rem;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 25%);
+    padding-bottom: 3rem;
 }
 
 section.section5 img {
@@ -70,6 +85,7 @@ section.section5 h2 {
 }
 
 section.section7 {
+    margin-top: 5rem;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 25%);
@@ -105,4 +121,49 @@ section.section6 div {
 
 section.section8 img {
     width: 100%;
+    /* position: absolute;
+    z-index: 1; */
+
+
 }
+section.section8 form {
+    position: relative;
+    bottom: 23rem;
+    /* z-index: 2;
+    width: 30%; */
+    
+    */
+}
+section.section8 form {
+    background-color: white;
+    max-width: 300px;
+    padding: 1rem;
+    margin-left: 3rem!important;
+    padding-bottom: 1.5rem!important;
+    margin-top: 8rem;
+    font-size: 1rem;
+}
+section.section8 {
+    margin-top: 10rem;
+    padding-bottom: 0;
+}
+@media screen and (max-width: 480px) {
+    section.authentic {
+        display: initial;
+    }
+    
+    .lappara {
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
+    
+    .listsection {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
+        box-sizing: border-box;
+    }
+}
+*/
